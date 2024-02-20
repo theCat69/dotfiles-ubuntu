@@ -1,3 +1,7 @@
 /.config/starship
 /.git
 /.gitignore
+/.gitmodules
+
+install-scripts
+Readme.md
