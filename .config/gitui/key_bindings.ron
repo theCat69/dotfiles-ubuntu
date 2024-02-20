@@ -1,0 +1,30 @@
+(
+    move_left: Some(( code: Char('h'), modifiers: ( bits: 0,),)),
+    move_right: Some(( code: Char('l'), modifiers: ( bits: 0,),)),
+    move_up: Some(( code: Char('k'), modifiers: ( bits: 0,),)),
+    move_down: Some(( code: Char('j'), modifiers: ( bits: 0,),)),
+
+    exit: Some((code: Esc, modifiers: (bits: 0,),)),
+    exit_popup: Some((code: Char('c'), modifiers: (bits: 2,),)),
+    quit: Some((code: Char('q'), modifiers: (bits:2,),)),
+
+    blame: Some((code: Char('b'), modifiers: (bits:2,),)), 
+    file_history: Some((code: Char('h'), modifiers: (bits:2,),)), 
+    status_reset_item: Some((code: Char('d'), modifiers: (bits:2,),)), 
+    stash_drop: Some((code: Char('d'), modifiers: (bits:2,),)), 
+    log_checkout_commit: Some((code: Char('s'), modifiers: (bits:2,),)), 
+    log_reset_commit: Some((code: Char('r'), modifiers: (bits:2,),)),
+    delete_branch: Some((code: Char('d'), modifiers: (bits:2,),)),
+    rebase_branch: Some((code: Char('r'), modifiers: (bits:2,),)),
+    compare_commits: Some((code: Char('c'), modifiers: (bits:2,),)),
+    tags: Some((code: Char('t'), modifiers: (bits:2,),)),
+    delete_tag: Some((code: Char('d'), modifiers: (bits:2,),)),
+    force_push: Some((code: Char('p'), modifiers: (bits:2,),)),
+    undo_commit: Some((code: Char('u'), modifiers: (bits:2,),)),
+    fetch: Some((code: Char('f'), modifiers: (bits:2,),)),
+    abort_merge: Some((code: Char('a'), modifiers: (bits:2,),)),
+    open_file_tree: Some((code: Char('f'), modifiers: (bits:2,),)),
+    view_sub_modules: Some((code: Char('s'), modifiers: (bits:2,),)),
+  
+    open_help: Some(( code: F(1), modifiers: ( bits: 0,),)),
+)
