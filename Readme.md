@@ -2,8 +2,8 @@
 
 ## Installation 
 
-'''sh 
+```sh 
 stow .
 ./install-scripts/deploy-starship.sh
-'''
+```
 
