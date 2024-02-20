@@ -4,12 +4,6 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/theCat69/nvim-config
-[submodule ".config/wezterm"]
-	path = .config/wezterm
-	url = https://github.com/theCat69/wezterm-config
-[submodule ".config/gitui"]
-	path = .config/gitui
-	url = https://github.com/theCat69/gitui-config
 [submodule ".config/starship"]
 	path = .config/starship
 	url = https://github.com/theCat69/starship-config
