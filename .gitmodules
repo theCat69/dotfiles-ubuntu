@@ -10,3 +10,6 @@
 [submodule ".config/gitui"]
 	path = .config/gitui
 	url = https://github.com/theCat69/gitui-config
+[submodule ".config/starship"]
+	path = .config/starship
+	url = https://github.com/theCat69/starship-config
