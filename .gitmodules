@@ -1,0 +1,9 @@
+[submodule ".config/fish"]
+	path = .config/fish
+	url = https://github.com/theCat69/fish-config
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/theCat69/nvim-config
+[submodule ".config/wezterm"]
+	path = .config/wezterm
+	url = https://github.com/theCat69/wezterm-config
