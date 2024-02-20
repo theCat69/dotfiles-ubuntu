@@ -13,3 +13,6 @@
 [submodule ".config/gitui"]
 	path = .config/gitui
 	url = https://github.com/theCat69/gitui-config
+[submodule ".config/ideavimrc"]
+	path = .config/ideavimrc
+	url = https://github.com/theCat69/ideavimrc
