@@ -118,3 +118,11 @@ stow .
 
 Get a nice and cold bear. Sit, relax, open wezterm and enjoy !
 
+## Additional tools
+
+### Topgrade
+A really nice and minimalist version cross-platform version manager.
+- Topgrade : [install](https://github.com/topgrade-rs/topgrade)
+```sh
+./install-scripts/deploy-topgrade.sh 
+```
