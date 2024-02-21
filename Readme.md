@@ -56,6 +56,27 @@ git clone <url> ~/.dotfiles
 
 - Starship : [install](https://github.com/starship/starship)
 
+### Install Ripgrep
+
+- Ripgrep : [install or build from source](https://github.com/BurntSushi/ripgrep)
+- Add rg to Path
+
+### Install Fzf
+
+- Fzf : [install](https://github.com/junegunn/fzf)
+- Add fzf to Path
+
+### Install Bat 
+
+- Bat : [install](https://github.com/sharkdp/bat)
+- Add bat to Path
+
+### Install Eza 
+
+- Eza : [install](https://github.com/eza-community/eza)
+- Add eza to Path
+
+
 ### Install Neovim
 
 - Neovim : [download](https://github.com/neovim/neovim) and [build it from source](https://github.com/neovim/neovim/blob/master/BUILD.md)
@@ -65,30 +86,27 @@ git clone <url> ~/.dotfiles
 ### Install Gitui
 
 - Gitui : [download or build from source](https://github.com/extrawurst/gitui)
-- Add gitui.exe to Path
+- Add gitui to Path
 
 ### Install GitButBetter
 
 > **Warning**
 > This is one of my personal project and it is not ment to be use by anyone but me so you better go inside .config/wezterm/wezterm.lua and change { 'gbb', 'ui' } by the 'gitui' command.
 - GitButBetter : [downlaod and build from source](https://github.com/theCat69/git-but-better)
+- add gbb to path
 
 ### Link the configuration
 
-> **Note**
-> I wanted to use stow to try it but this require Admin rights and you might not always be able to have those rights on every machine you work with. So you could, maybe, use instead, a copy script that require a command to commit your config files or you could use a watcher to auto update when you modify those file
-
-- Install stow on MSYS2
+- Install stow
 ```sh
-pacman -S stow
+apt update
+apt install stow
 ```
 
-- Modify your environment to have MSYS=winsymlinks:nativestrict
-- Open MSYS prompt as administrator and run
+- Open terminal in this project folder and run 
 ```sh
-stow . -t /c/Users/<username>
+stow . 
 ./install-scripts/deploy-starship.sh 
-./install-scripts/deploy-nvim.sh 
 ```
 
 - If you use IntelliJ you can additionaly use my ideavimrc 
