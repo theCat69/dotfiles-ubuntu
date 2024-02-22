@@ -1,1 +1,1 @@
-ln -s ~/.dotfiles/.config/ideavimrc/.ideavimrc ~
+ln -s $DOTFILES/.config/ideavimrc/.ideavimrc ~

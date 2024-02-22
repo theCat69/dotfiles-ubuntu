@@ -1,1 +1,1 @@
-ln -s ~/.dotfiles/.config/topgrade/topgrade.toml ~/.config
+ln -s $DOTFILES/.config/topgrade/topgrade.toml ~/.config
