@@ -17,13 +17,15 @@
   diffFilter = delta --color-only
 [delta]
   navigate = true  
-  light = false     
+  ; i should use features to handle it with and env variable
+  light = true
+  syntax-theme = GitHub
 [merge]
   conflictstyle = diff3
   tool = nvimdiff
 [diff]
   colorMoved = default
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [mergetool]
-	keepBackup = false
+  keepBackup = false
